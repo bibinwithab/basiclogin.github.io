@@ -1,0 +1,101 @@
+body {
+    background-image: url(images_weeknd/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    color: rgb(255, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0;
+    background-position: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    border: #ffffffd0;
+    color: #ffffff;
+    border-radius: 10%;
+    margin: 50px 0 20px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form {
+    background-color: #ffffff;
+    color: #c96dff;
+    background: rgba(0, 0, 0, 0.532);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(157, 72, 255);
+    margin:  auto;
+    background-position: center;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.container  {
+    background-color: #862df342;
+    border-top: 20px;
+    border-radius: 20px;
+    margin:auto;
+    max-width: 500px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.766);
+    
+}
+
+input[type=username], input[type=password] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #8928ff;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    width: 95%;
+}
+::placeholder{
+    color: #ffffff;
+}
+
+.submit-button{
+    background-color: #be52fc;
+    border:rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    transition: .3s;
+}
+
+.submit-button:hover{
+    background-color: blue;
+    transition: .3s;
+}
+
+img {
+    display:grid;
+    margin: 20px auto;
+    cursor:pointer;
+    max-width: 200px;
+    border: none;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 35px;
+    font-size: 20px;
+}
+a{
+    color: #ffffff;
+}
+
+.ckbox{
+    padding: auto;
+    margin-bottom: 15px;
+}
