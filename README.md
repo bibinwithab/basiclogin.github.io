@@ -1,33 +1,4 @@
-<!-- # Basic-login-page
+# Basic-login-page
 I, basically made a basic login page with some html css and js.
 
- -->
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Login page | Project 219</title>
-	<meta name="description" content="Login page created for fun">
-	<meta charset="UTF-8 ">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css" >
 
-<body>
-	<div class="container"><h1>Login Page</h1></form>
-
-
-	<form>
-		
-		<input type="username" id="username" name="username" placeholder="Username">
-
-		<input type="password" id="password" placeholder="Password" name="password" minlength="4" maxlength="15">
-
-
-		<input type="checkbox" class="ckbox"><span>Remember me</span>
-		<button class="submit-button" >LOG IN</button>
-
-	</form>
-	<script src="test.js"></script>
-	<p>Don't have an account? <a href="register.html" >Register here!</a></p></div>
-
-</body>
-</html>
