@@ -6,21 +6,12 @@ form.addEventListener('submit', (event) => {
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
 
-  // Check if username and password are valid
+  // Check if username and password are valid  -- valid username: "admin"; valid password: "password@123"
   // Here you can add your own logic for authentication
   if (username === 'admin' && password === 'password@123') {
     // Redirect to dashboard or homepage
     window.location.href = '/success.html';
   } 
-  
-  if (username != 'admin') {
-    alert('Invalid username');
-  }
-
-  if (password != 'pasword@123'){
-    alert('Invalid password');
-  }
-
   else {
     // Display error message
     alert('Invalid username and password');
